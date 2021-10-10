@@ -34,6 +34,7 @@ body {
     padding: 1em;
     width: 700px;
     margin-right: 2em;
+    border-radius: 2% 2% 2% 2% /10% 10% 10% 10%;
 }
 
 .payment_section {
@@ -42,7 +43,7 @@ body {
     padding: 1em;
     width: 700px;
     margin-top: 1em;
-    /* border-radius: 5% 5% 5% 5% /10% 10% 10% 10% ; */
+    border-radius: 2% 2% 2% 2% /10% 10% 10% 10%;
     margin-right: 2em;
 }
 
@@ -51,7 +52,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 1em 1em 0em 1em;
     width: 400px;
-    /* border-radius: 5% 5% 5% 5% /10% 10% 10% 10% ; */
+    border-radius: 5% 5% 5% 5% / 7% 7% 7% 7%;
     margin-right: 0.5em;
 }
 
