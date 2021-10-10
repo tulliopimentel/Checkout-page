@@ -1,0 +1,251 @@
+body {
+    background-color: rgb(246, 250, 209);
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+}
+
+.header {
+    flex-direction: row;
+    display: flex;
+}
+
+.header-right {
+    display: block;
+    margin-right: 1em;
+}
+
+.header-left {
+    display: flex;
+    margin-left: 1em;
+    text-decoration: none;
+}
+
+.address_section {
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1em;
+    width: 700px;
+    margin-right: 2em;
+}
+
+.payment_section {
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1em;
+    width: 700px;
+    margin-top: 1em;
+    /* border-radius: 5% 5% 5% 5% /10% 10% 10% 10% ; */
+    margin-right: 2em;
+}
+
+.cart_section {
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1em 1em 0em 1em;
+    width: 400px;
+    /* border-radius: 5% 5% 5% 5% /10% 10% 10% 10% ; */
+    margin-right: 0.5em;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    color: inherit;
+    text-decoration: dashed;
+}
+
+.address {
+    display: flex;
+    float: right;
+}
+
+.address>input {
+    padding: 0;
+    margin-left: 1em;
+    width: 10em;
+    height: 1.5em;
+    margin-top: 1em;
+}
+
+.street {
+    display: flex;
+    float: right;
+    margin-left: 2em;
+}
+
+
+.street>input {
+    padding: 0;
+    margin-left: 1em;
+    width: 10em;
+    height: 1.5em;
+    margin-top: 1em;
+}
+
+.number {
+    display: flex;
+    float: right;
+    margin-left: 2em;
+}
+
+
+.number>input {
+    padding: 0;
+    margin-left: 1em;
+    width: 10em;
+    height: 1.5em;
+    margin-top: 1em;
+}
+
+.complement {
+    display: flex;
+    float: right;
+}
+
+
+.complement>input {
+    display: flex;
+    padding: 0;
+    margin-left: 1em;
+    width: 10em;
+    height: 1.5em;
+    margin-top: 1em;
+}
+
+.district {
+    display: flex;
+    float: right;
+    margin-left: 1em;
+}
+
+
+.district>input {
+    display: flex;
+    padding: 0;
+    margin-left: 1em;
+    width: 10em;
+    height: 1.5em;
+    margin-top: 1em;
+}
+
+.state {
+    display: flex;
+    float: right;
+    margin-left: 1em;
+}
+
+
+.state>select {
+    display: flex;
+    padding: 0;
+    margin-left: 1em;
+    width: 10em;
+    height: 1.5em;
+    margin-top: 1em;
+}
+
+.city {
+    display: flex;
+    float: right;
+}
+
+
+.city>input {
+    display: flex;
+    padding: 0;
+    margin-left: 1em;
+    width: 10em;
+    height: 1.5em;
+    margin-top: 1em;
+}
+
+.product {
+    background-color: white;
+    width: 40%;
+    float: right;
+    margin-right: 2em;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 110px;
+    height: 110px;
+    border-radius: 10%;
+}
+
+.product_cart {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.details {
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.price {
+    display: flex;
+    margin-top: 1em;
+}
+
+.price_real {
+    display: flex;
+    margin-top: 0.3em;
+    margin-left: 0.5em;
+}
+
+/** Botão **/
+
+.btn {
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #dad84f;
+    outline: none;
+    transition: 1s ease-in-out;
+    margin-top: 1em;
+    margin-left: 15em;
+}
+
+.btn:hover {
+    transition: 0.4s ease-in-out;
+    background: #dad84f;
+}
+
+/* Icones  */
+
+.cart {
+    display: flex;
+    margin-top: 1em;
+    margin-left: 0.5em;
+}
+
+.tool {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3.5em;
+}
+
+.globe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5em;
+}
